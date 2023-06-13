@@ -4,12 +4,13 @@ using namespace std;
 
 template<class T>
 void Stack<T>::push(T c){
-	//define the push methosd here
+	
 }
 
 template<class T>
 T Stack<T>::pop(){
 	//define the pop method here
+  
 }
 
 template<class T>
