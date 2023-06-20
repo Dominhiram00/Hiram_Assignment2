@@ -1,0 +1,10 @@
+=============================
+CSCE 3110 - Assignment 2 - Planning
+==============================
+A. Make a stack using vectors in the stack.cpp file. Basically, push_back() for push & pop_back() for pop (LIFO)
+B. Balanced meaning there are an equal number of operatoids. Use a for loop, scan, and return true or false
+C. Check if the expression is balanced, rearrange characters from post to infix, test, and only display the answer (BOOM DONE)
+D. Check if the expression is balanced, rearrange characters from infix to post , and display everything including answer(BOOM DONE)
+Extra. Same thing but with a linked-list (easy)
+
+No linked-list std libraries for linked list and stack
