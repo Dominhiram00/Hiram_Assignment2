@@ -9,3 +9,53 @@ Extra. Same thing but with a linked-list (easy)
 
 No linked-list std libraries for linked list and stack
 =============================
+A. Stack.cpp
+=============================
+Some the stack.hpp file already has an array called 'T' built in this...
+
+
+void Stack<T>::push(T c){
+	T.push_back(s);
+}
+
+void Stack<T>::pop(){
+	T.pop_back();
+}
+
+=============================
+B. Do the parentheses match....AIGHT
+balance.cpp
+postFixEval.cpp = main.cpp
+=============================
+1. Use two pointers (i and j) Hare and Turtle method
+2. if T[i] is a parantheses then j will move forward
+3. if j has a matching parantheses keeping i going until there isn't a paranthese
+	.if j doesn't find a matching parantheses then isBalanced = false
+....That's it
+
+========================
+C. postfixEval.cpp
+1. Run "isBalanced()"
+2. Scan string and pop characters into a stack (eliminate whitespaces)
+Example:
+	(i) and (j)
+	6, 33, +
+	push();
+	6, 33
+	//when '+' is placed or any operation expression
+	left + right = 39
+	push();
+	39
+	solution = 39;
+==========================
+D. infixtopostfix.cpp
+=========================
+1. Run "isBalanced()
+2. Scan string, push numbers into display, push operators into stack, pop operators after comparing each one
+3. Calculate
+4. Display answer
+=====================
+E. Create linked list version of this
+======================
+F. Bruh
+===================
