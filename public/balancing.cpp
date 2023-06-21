@@ -25,9 +25,10 @@ int main(){
         stack.push(s[i]);
       } else if(s[i] == ')' || s[i] == '}' || s[i] == ')'){
         stack.pop();
+      } else {
+        isBalanced = false;
       }
 
-      return isBalanced;
     }
 
     // checking if you stored in isBalanced the correct value

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/domin/OneDrive/Documents/School/2023 Summer Semester/CSCE 3110/Hiram_Assignment2/public",
-      "program": "c:/Users/domin/OneDrive/Documents/School/2023 Summer Semester/CSCE 3110/Hiram_Assignment2/public/build/Debug/outDebug",
+      "cwd": "c:/Users/domin/OneDrive/Documents/School/2023 Summer Semester/CSCE 3110/Hiram_Assignment2",
+      "program": "c:/Users/domin/OneDrive/Documents/School/2023 Summer Semester/CSCE 3110/Hiram_Assignment2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
