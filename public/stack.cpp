@@ -1,3 +1,6 @@
+/*
+I will be using vector methods for this assignment.
+*/
 #include "stack.hpp"
 
 using namespace std;

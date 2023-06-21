@@ -21,7 +21,13 @@ int main(){
     // so variable solution tells you whether 'expression' is balanced or not
 
     for(int i=0; i<s.length(); ++i){
-      // WRITE CODE HERE so that isBalanced indicates whether 's' is balanced
+      if(s[i] == '(' || s[i] == '[' || s[i] == '{'){
+        stack.push(s[i]);
+      } else if(s[i] == ')' || s[i] == '}' || s[i] == ')'){
+        stack.pop();
+      }
+
+      stack.display();
     }
 
     // checking if you stored in isBalanced the correct value
