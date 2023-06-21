@@ -26,8 +26,6 @@ int main(){
       } else if(s[i] == ')' || s[i] == '}' || s[i] == ')'){
         stack.pop();
       }
-
-      stack.display();
     }
 
     // checking if you stored in isBalanced the correct value

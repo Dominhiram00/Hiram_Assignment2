@@ -6,13 +6,14 @@ I will be using vector methods for this assignment.
 using namespace std;
 
 template<class T>
+
 void Stack<T>::push(T c){
-	T.push_back(c);
+		values[++top] = c;
 }
 
 template<class T>
 T Stack<T>::pop(){
-	T.pop_back();
+		return values[topIndex--];
 }
 
 template<class T>

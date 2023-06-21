@@ -13,10 +13,15 @@ class Stack{
 private:
   T arr[MAXSIZE]; // the actual stack
   int topIndex;   // index of the top element
+  double values;
+  int maxTop;
 public:
   Stack(){
     topIndex = -1; // constructor
+    values = size();
+    maxTop = size() - 1;
   };
+
   ~Stack(){};      // destructor
   void push(T c);  // push c to the list
   T pop();         // return and remove the top element in the stack
