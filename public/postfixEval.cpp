@@ -15,8 +15,19 @@ int main(){
 
     // We assume that all operands in the input are one digit (so they range from 0 to 9)
     for(int i=0; i<s.length(); ++i){
-      // WRITE CODE HERE to evaluate the postfix expression in s
-      // At the end of the loop, stack.pop() should contain the value of the postfix expression
+      stack.push(s[i]);
+      if(s[i] == '+'){
+        stack.push((s[i]-1) + (s[i]-2));
+      }
+      if(s[i] == '-'){
+        stack.push((s[i]-1) - (s[i]-2));
+      }
+      if(s[i] == '/'){
+        stack.push((s[i]-1) / (s[i]-2));
+      }
+      if(s[i] == '*'){
+        stack.push((s[i]-1) * (s[i]-2));
+      }
       
     }
 
